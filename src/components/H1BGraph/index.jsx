@@ -74,7 +74,6 @@ class H1BGraph extends Component {
           console.error(error.stack);
         }else{
           this.setState({rawData: rows});
-          console.log(this.state.rawData);
         }
       });
   }
